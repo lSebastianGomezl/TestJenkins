@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id 'test-report-aggregation'
 }
 
 group 'org.example'
