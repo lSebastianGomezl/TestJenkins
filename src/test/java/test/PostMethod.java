@@ -36,7 +36,7 @@ public class PostMethod {
         System.out.println(response.statusLine());
 
         //Verification
-        response.then().statusCode(equalTo(200));
+        response.then().statusCode(equalTo(20));
         response.then().statusLine(containsStringIgnoringCase("201"));
         response.then().body("userId", equalTo(1));
     }
